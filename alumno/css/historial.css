@@ -1,0 +1,21 @@
+.containerh {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.historial-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.historial-table th,
+.historial-table td {
+  padding: 10px;
+  border: 1px solid #c42d35; /* Color de borde rojo */
+}
+
+.historial-table th {
+  background-color: #c42d35; /* Color de fondo rojo para las cabeceras */
+  color: white; /* Color de texto blanco para las cabeceras */
+}

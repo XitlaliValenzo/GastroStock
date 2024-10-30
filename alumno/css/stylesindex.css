@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  
+  color: #fff;
+  padding: 10px ;
+  /* Fondo con degradado */
+  background:  #c42d35;
+
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.containeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.catalogo {
+  width: 55%;
+  padding: 10px;
+  
+}
+.carrito {
+  width: 25%;
+  height: 25%;
+  padding: 25px;
+}
+
+.utensilio {
+  margin-bottom: 20px;
+}
+
+.utensilio img {
+  max-width: 100%;
+}
+
+
+.button {
+  padding: 10px 20px;
+  background-color: #c42d35;
+  color: white;
+  border: 1px solid #CA1A1A;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button2 {
+  padding: 10px 20px;
+  background-color: #46C42D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button3:hover {
+  background-color: #52A233;
+}
+.button3 {
+  padding: 10px 20px;
+  background-color: #81BE75;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button2:hover {
+  background-color: #9CFF66;
+}
+button:hover {
+  background-color: #ff6666;
+}
+h1 {
+    text-align: center;
+}
+.buscador {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.buscador input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.buscador button {
+  background-color: #c42d35;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Ajustes para hacer el botón de búsqueda responsivo */
+@media screen and (max-width: 600px) {
+  .buscador button {
+    padding: 8px;
+  }
+}
+
+/*TARJETA ADAPTABLE*/
+
+.grid-container {
+  display: grid;
+  padding: 2vw;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 10px 10px 10px;
+}
+
+.content h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.content p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/**/
