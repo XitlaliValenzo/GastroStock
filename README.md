@@ -11,11 +11,11 @@ Fue desarrollado con HTML, CSS, DataTables, JS, además del uso del framework Bo
 - Capturas de pantalla
 
 ![Inicio de sesión](capturas_sistema/inicio_sesion.PNG)
-##Usuario Alumno
+## Usuario Alumno
 ![Usuario alumno](capturas_sistema/alumno.PNG)
-##Usuario Encargado
+## Usuario Encargado
 ![Usuario encargado](capturas_sistema/encargado.PNG)
-##Usuario Administrador
+## Usuario Administrador
 ![Usuario administrador](capturas_sistema/administrador.PNG)
 
 
