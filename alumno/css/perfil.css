@@ -1,0 +1,27 @@
+.containerp {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+}
+
+.profile-info img {
+  height: 20px;
+  width: 20px;
+}
+
+button {
+  background-color: #c42d35;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
