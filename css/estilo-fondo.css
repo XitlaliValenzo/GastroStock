@@ -1,0 +1,37 @@
+body{
+	background-image: url("../img/cocina.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+}
+#email{
+	border-radius: 20px;
+	
+}
+
+#password{
+	border-radius: 20px;
+
+}
+
+#fondo-form{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+	justify-content: center;
+	
+}
+#logo-container {
+    width: 68%;
+}
+h1{
+	color: #fff;
+}
+label{
+	color: #fff;
+	font-size: 0.85em;
+}
+#ul{
+	font-size: 0.76em;
+	color: #fff;
+}

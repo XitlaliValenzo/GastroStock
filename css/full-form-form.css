@@ -1,0 +1,32 @@
+/* Configuracion ----------------------------- */
+:root {
+  /* Custom ------------------ */
+  input[type="email"]:focus:valid {
+    border-color: #2ecc71;
+  }
+
+  /* Ocultar y mostrar .input-requerimientos relacionados al interactuar con el input */
+  input[type="email"] + .input-requirements {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-out;
+  }
+
+  input[type="email"]:focus + .input-requirements,
+  input[type="email"]:active + .input-requirements {
+    max-height: 1000px; /* Cualquier numero grande (mas grande que la lista de .input-requerimientos) */
+    transition: max-height 1s ease-in;
+  }
+
+  /* Evitar que se muestren los otros campos en verde */
+  input:not([type="email"]):hover + .input-requirements,
+  input:not([type="email"]):focus + .input-requirements,
+  input:not([type="email"]):active + .input-requirements {
+    max-height: 0;
+  }
+
+  input[type="email"]:hover + .input-requirements {
+    max-height: 1000px; /* Cualquier numero grande (mas grande que la lista de .input-requerimientos) */
+    transition: max-height 1s ease-in;
+  }
+}
